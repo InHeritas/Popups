@@ -32,7 +32,7 @@ extension View {
             DragGesture()
                 .onChanged { newValue in Task { @MainActor in await actionOnChanged(newValue.translation.height) }}
                 .onEnded { newValue in Task { @MainActor in await actionOnEnded(newValue.translation.height) }},
-            isEnabled: isEnabled
+            including: isEnabled ? .all : .none
         )
         #endif
     }

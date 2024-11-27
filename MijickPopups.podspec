@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '15.0'
   s.watchos.deployment_target = '7.0'
   s.visionos.deployment_target = '1.0'
-  s.swift_version         = '6.0'
+  s.swift_version         = '5.0'
   
   s.source_files          = 'Sources/**/*'
   s.frameworks            = 'SwiftUI', 'Foundation', 'Combine'

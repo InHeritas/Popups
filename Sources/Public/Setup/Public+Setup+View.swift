@@ -42,7 +42,7 @@ public extension View {
 
     - seealso: It's also possible to register the framework with ``PopupSceneDelegate``; useful if you want to use the library with Apple's default sheets.
      */
-    func registerPopups(id: PopupStackID = .shared, configBuilder: @escaping (GlobalConfigContainer) -> GlobalConfigContainer = { $0 }) -> some View {
+    @MainActor func registerPopups(id: PopupStackID = .shared, configBuilder: @escaping (GlobalConfigContainer) -> GlobalConfigContainer = { $0 }) -> some View {
         #if os(tvOS)
         PopupView(rootView: self, stack: .registerStack(id: id)).onAppear { _ = configBuilder(.init()) }
         #else
