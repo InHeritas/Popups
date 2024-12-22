@@ -16,10 +16,9 @@ extension VM { class CenterStack: ViewModel { required init() {}
     var popups: [AnyPopup] = []
     var activePopupProperties: ActivePopupProperties = .init()
     var screen: Screen = .init()
-    var updatePopupAction: ((AnyPopup) async -> ())!
-    var closePopupAction: ((AnyPopup) async -> ())!
+    var updatePopupAction: ((AnyPopup) async -> ())?
+    var closePopupAction: ((AnyPopup) async -> ())?
 }}
-
 
 
 // MARK: - METHODS / VIEW MODEL / ACTIVE POPUP
@@ -84,7 +83,6 @@ extension VM.CenterStack {
 }
 
 
-
 // MARK: - METHODS / VIEW MODEL / SELECTED POPUP
 
 
@@ -102,7 +100,6 @@ private extension VM.CenterStack {
         return fullscreenHeight - safeAreaHeight
     }
 }
-
 
 
 // MARK: - METHODS / VIEW

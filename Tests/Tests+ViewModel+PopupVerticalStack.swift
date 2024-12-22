@@ -44,7 +44,6 @@ private extension PopupVerticalStackViewModelTests {
 }
 
 
-
 // MARK: - TEST CASES
 
 
@@ -133,7 +132,7 @@ extension PopupVerticalStackViewModelTests {
 private extension PopupVerticalStackViewModelTests {
     func appendPopupsAndCheckPopups(viewModel: ViewModel, popups: [AnyPopup], updatedPopup: AnyPopup, expectedValue: (height: CGFloat?, dragHeight: CGFloat)) async {
         await viewModel.updatePopups(popups)
-        await viewModel.updatePopupAction(updatedPopup)
+        await viewModel.updatePopupAction?(updatedPopup)
 
         if let index = viewModel.popups.firstIndex(of: updatedPopup) {
             XCTAssertEqual(viewModel.popups[index].height, expectedValue.height)
@@ -1473,7 +1472,6 @@ private extension PopupVerticalStackViewModelTests {
         XCTAssertEqual(viewModel.activePopupProperties.height, expectedValues.popupHeight)
     }
 }
-
 
 
 // MARK: - HELPERS

@@ -63,25 +63,82 @@
 <p>
     <!--Discord-->
     <a href="https://link.mijick.com/discord">
-        <img alt="Join us on Discord" src="https://github.com/Mijick/Assets/blob/main/Popups/Buttons/discord.png" height="40px">
+        <img alt="Join us on Discord" src="https://github.com/Mijick/Assets/blob/main/Common/Buttons/discord.png" height="40px">
     </a>
     <!--Linkedin-->
     <a href="https://link.mijick.com/linkedin">
-        <img alt="Follow us on LinkedIn" src="https://github.com/Mijick/Assets/blob/main/Popups/Buttons/linkedin.png" height="40px">
+        <img alt="Follow us on LinkedIn" src="https://github.com/Mijick/Assets/blob/main/Common/Buttons/linkedin.png" height="40px">
     </a>
     <!--GitHub-->
     <a href="https://link.mijick.com/github">
-        <img alt="See our other frameworks" src="https://github.com/Mijick/Assets/blob/main/Popups/Buttons/github.png" height="40px">
+        <img alt="See our other frameworks" src="https://github.com/Mijick/Assets/blob/main/Common/Buttons/github.png" height="40px">
     </a>
     <!--Medium-->
     <a href="https://link.mijick.com/medium">
-        <img alt="Read us on Medium" src="https://github.com/Mijick/Assets/blob/main/Popups/Buttons/medium.png" height="40px">
+        <img alt="Read us on Medium" src="https://github.com/Mijick/Assets/blob/main/Common/Buttons/medium.png" height="40px">
     </a>
     <!--Buymeacoffee-->
     <a href="https://link.mijick.com/buymeacoffee">
-        <img alt="Buy us a coffee" src="https://github.com/Mijick/Assets/blob/main/Popups/Buttons/buymeacoffee.png" height="40px">
+        <img alt="Buy us a coffee" src="https://github.com/Mijick/Assets/blob/main/Common/Buttons/buymeacoffee.png" height="40px">
     </a>
 </p>
+
+<!--Features-->
+# ✨ Features
+<table><tbody>
+    <tr>
+        <td>📱</td>
+        <td>Three positions for the popups: Top, Center or Bottom</td>
+    </tr>
+    <tr>
+        <td>🎁</td>
+        <td>Stackable popups</td>
+    </tr>
+    <tr>
+        <td>🐫</td>
+        <td>Three height modes: Automatic, Large or Fullscreen</td>
+    </tr>
+    <tr>
+        <td>⛹️</td>
+        <td>Resizable popups</td>
+    </tr>
+    <tr>
+        <td>🍃</td>
+        <td>Automatic dismissal</td>
+    </tr>
+    <tr>
+        <td>🖖</td>
+        <td>Super easy to use from any place in the code</td>
+    </tr>
+    <tr>
+        <td>🚧</td>
+        <td>Fully customizable</td>
+    </tr>
+    <tr>
+        <td>🕺</td>
+        <td>Beautiful animations</td>
+    </tr>
+    <tr>
+        <td>🤏🏼</td>
+        <td>Gestures support</td>
+    </tr>
+    <tr>
+        <td>🍏</td>
+        <td>Works with SwiftUI sheets</td>
+    </tr>
+    <tr>
+        <td>🖥️</td>
+        <td>Supports iOS, macOS, tvOS, watchOS and visionOS</td>
+    </tr>
+    <tr>
+        <td>⚡️</td>
+        <td>Supports Swift 6</td>
+    </tr>
+    <tr>
+        <td>🚀</td>
+        <td>... and others</td>
+    </tr>
+</tbody></table>
 
 <!--Description-->
 # ☀️ Why MijickPopups?
@@ -145,7 +202,7 @@ Join the welcoming community of developers on [Discord](https://link.mijick.com/
 # 🌼 Contribute
 To contribute a feature or idea to **MijickPopups**, create an [issue](https://github.com/Mijick/Popups/issues/new?assignees=FulcrumOne&labels=state%3A+inactive%2C+type%3A+feature&projects=&template=🚀-feature-request.md&title=%5BFREQ%5D) explaining your idea or bring it up on [Discord](https://discord.com/invite/dT5V7nm5SC). <br>
 If you find a bug, please create an [issue](https://github.com/Mijick/Popups/issues/new?assignees=FulcrumOne%2C+jay-jay-lama&labels=state%3A+inactive%2C+type%3A+bug&projects=&template=🦟-bug-report.md&title=%5BBUG%5D). <br>
-If you would like to contribute, please refer to the [Contribution Guidelines](https://link.mijick.com/contribution-guidelines).
+If you would like to contribute, please refer to the [Contribution Guidelines](https://github.com/Mijick/Popups/blob/main/.github/CONTRIBUTING.md).
 
 <!--Sponsorship-->
 # 💜 Sponsor our work
